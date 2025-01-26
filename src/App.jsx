@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Display from "./Components/Display";
 import Button from "./Components/Button";
 import { useState } from "react";
@@ -29,3 +30,24 @@ const onButtonClicked = (buttonText) => {
 }
 
 export default App;
+=======
+import ClockHeading from "./components/ClockHeading";
+import Slogan from "./components/Slogan";
+import Clock from "./components/currentClock";
+import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
+
+
+function App() {
+  return (
+    <div style={{ textAlign: 'center' }}>
+      <ClockHeading />
+      <Slogan />
+      <Clock />
+    </div>
+  );
+}
+
+export default App;
+
+>>>>>>> 75e773a08fdcbbef899cd09db6e6770b53d966b0
